@@ -1,0 +1,31 @@
+{
+  "name": "Mazand FOS Modern RTL",
+  "direction": "rtl",
+  "locale": "fa-IR",
+  "colors": {
+    "canvas": "#F4F6F8",
+    "surface": "#FFFFFF",
+    "text": "#17212B",
+    "muted": "#5B6875",
+    "border": "#D4DCE3",
+    "primary": "#245B72",
+    "accent": "#2E7D72",
+    "warning": "#AD6D16",
+    "danger": "#B23B3B"
+  },
+  "layout": {
+    "headerHeight": 60,
+    "sidebarWidth": 248,
+    "bottomActionBarHeight": 68,
+    "tableBodyScroll": "internal",
+    "workspace": "viewport-height"
+  },
+  "principles": [
+    "clear hierarchy",
+    "high contrast",
+    "keyboard-first",
+    "tooltips in Persian",
+    "no status by color alone",
+    "visible offline/conflict state"
+  ]
+}

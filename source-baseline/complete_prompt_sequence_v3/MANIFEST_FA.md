@@ -1,0 +1,149 @@
+# MANIFEST — Mazand FOS Complete Prompt Sequence v3.0 FA
+
+این بسته یک کیت مستندات، طراحی، قواعد و پرامپت است؛ نرم‌افزار قابل نصب نیست و مخزن GitHub را به‌صورت خودکار تغییر نمی‌دهد.
+
+## نقطه شروع
+- `START_HERE_FA.md` — راهنمای ساخت GitHub و شروع Arena از صفر.
+- `prompts/SEQUENTIAL_COPY_PASTE_RUNBOOK_FA.md` — یک فایل شامل متن کامل همه ۲۶ پرامپت در ترتیب اجرا.
+- `prompts/00_GLOBAL_CONTRACT_FA.md` تا `prompts/25_FINAL_AUDIT_HANDOFF_FA.md` — همان پرامپت‌ها به صورت مستقل.
+- `docs/49_REPOSITORY_ALL_FILE_REVIEW_PROTOCOL_FA.md` — پروتکل بررسی فایل‌به‌فایل.
+- `tests/PROMPT_EXECUTION_LEDGER_FA.md` — فرم ثبت وضعیت/تأیید/شواهد.
+- `CHECKSUMS.sha256` — hashes برای verification.
+
+## شمارش
+
+- فایل‌های قبل از Manifest و checksums: 129
+- پرامپت‌های مستقل: 26
+- متن Runbook شامل همه 26 prompt: بله
+
+## ساختار همه فایل‌ها
+
+- `.editorconfig` — 285 bytes
+- `.gitattributes` — 138 bytes
+- `.github/ISSUE_TEMPLATE/bug_report.yml` — 1,808 bytes
+- `.github/ISSUE_TEMPLATE/feature_request.yml` — 1,109 bytes
+- `.github/PULL_REQUEST_TEMPLATE.md` — 1,333 bytes
+- `.github/workflows/docs-check.yml` — 395 bytes
+- `.gitignore` — 1,274 bytes
+- `CHANGELOG.md` — 726 bytes
+- `CONTRIBUTING.md` — 1,254 bytes
+- `LICENSE_POLICY.md` — 1,148 bytes
+- `PROJECT_SPEC.md` — 5,341 bytes
+- `README.md` — 7,031 bytes
+- `SECURITY.md` — 1,206 bytes
+- `START_HERE_FA.md` — 3,056 bytes
+- `assets/README_FA.md` — 2,108 bytes
+- `assets/brand/mazand-fos-mark.svg` — 1,129 bytes
+- `assets/design-tokens.css` — 3,088 bytes
+- `assets/design-tokens.json` — 2,245 bytes
+- `assets/diagrams/README_FA.md` — 537 bytes
+- `assets/diagrams/accounting_posting_flow.svg` — 3,382 bytes
+- `assets/diagrams/architecture_modes.svg` — 3,534 bytes
+- `assets/diagrams/citrus_weight_flow.svg` — 3,709 bytes
+- `assets/diagrams/domain_relationships.svg` — 3,842 bytes
+- `assets/diagrams/import_studio_flow.svg` — 3,833 bytes
+- `assets/templates/README_FA.md` — 785 bytes
+- `assets/visuals/VISUAL_CATALOG_FA.md` — 2,001 bytes
+- `assets/visuals/backup_sync_center_wireframe.svg` — 8,296 bytes
+- `assets/visuals/bank_reconciliation_wireframe.svg` — 10,497 bytes
+- `assets/visuals/dashboard_concept_reference.png` — 1,499,138 bytes
+- `assets/visuals/dashboard_wireframe.svg` — 14,699 bytes
+- `assets/visuals/import_studio_wireframe.svg` — 7,979 bytes
+- `assets/visuals/inventory_sorting_wireframe.svg` — 10,861 bytes
+- `assets/visuals/invoice_workbench_wireframe.svg` — 7,902 bytes
+- `assets/visuals/journal_workbench_wireframe.svg` — 8,731 bytes
+- `assets/visuals/master_data_list_wireframe.svg` — 10,817 bytes
+- `assets/visuals/party_statement_wireframe.svg` — 11,093 bytes
+- `assets/visuals/report_builder_wireframe.svg` — 9,282 bytes
+- `docs/00_GITHUB_SETUP_AND_FIRST_COMMIT_FA.md` — 3,201 bytes
+- `docs/01_PRODUCT_AND_ACCEPTANCE_FA.md` — 7,978 bytes
+- `docs/02_REQUIREMENTS_TRACEABILITY_FA.md` — 5,242 bytes
+- `docs/03_ARCHITECTURE_AND_DEPLOYMENT_FA.md` — 5,985 bytes
+- `docs/04_DOMAIN_MODEL_RELATIONSHIPS_FA.md` — 5,926 bytes
+- `docs/05_DATA_DICTIONARY_MIGRATIONS_FA.md` — 3,812 bytes
+- `docs/06_DESIGN_SYSTEM_FA.md` — 8,670 bytes
+- `docs/07_UX_INTERACTION_STATES_FA.md` — 6,520 bytes
+- `docs/08_PAGE_CATALOG_FA.md` — 8,367 bytes
+- `docs/09_DASHBOARD_KPI_REPORTS_FA.md` — 5,323 bytes
+- `docs/10_CITRUS_INVOICE_WEIGHT_LOSS_FA.md` — 8,082 bytes
+- `docs/11_PURCHASE_SALES_INVENTORY_SORTING_FA.md` — 6,530 bytes
+- `docs/12_ACCOUNTING_POSTING_LEDGER_FA.md` — 5,767 bytes
+- `docs/13_FINANCIAL_STATEMENTS_AUDIT_FA.md` — 4,096 bytes
+- `docs/14_BANK_TREASURY_CHECKS_BARFOROOSH_FA.md` — 5,739 bytes
+- `docs/15_MASTER_DATA_PARTIES_FA.md` — 4,074 bytes
+- `docs/16_IMPORT_STUDIO_EXCEL_INTEROP_FA.md` — 6,171 bytes
+- `docs/17_OFFLINE_SYNC_CONFLICTS_FA.md` — 5,249 bytes
+- `docs/18_SECURITY_AND_PERMISSIONS_FA.md` — 4,218 bytes
+- `docs/19_BACKUP_RESTORE_DR_FA.md` — 3,748 bytes
+- `docs/20_PRINT_BUILDER_DOCUMENT_TEMPLATES_FA.md` — 3,289 bytes
+- `docs/21_SCALE_HARDWARE_ADAPTER_FA.md` — 3,015 bytes
+- `docs/22_TEST_STRATEGY_ACCEPTANCE_REGRESSION_FA.md` — 3,994 bytes
+- `docs/23_PERFORMANCE_ACCESSIBILITY_FA.md` — 2,612 bytes
+- `docs/24_INSTALLER_UPGRADE_ROLLBACK_FA.md` — 2,336 bytes
+- `docs/25_DATA_MIGRATION_CUTOVER_FA.md` — 2,620 bytes
+- `docs/26_GITHUB_CHANGE_CONTROL_FA.md` — 3,204 bytes
+- `docs/27_DECISION_REGISTER_FA.md` — 6,409 bytes
+- `docs/28_RISK_REGISTER_FA.md` — 2,819 bytes
+- `docs/29_DATA_GOVERNANCE_RETENTION_FA.md` — 2,093 bytes
+- `docs/30_TECHNOLOGY_SELECTION_GATES_FA.md` — 2,799 bytes
+- `docs/31_HELP_TOOLTIPS_FA.md` — 3,324 bytes
+- `docs/32_REPORT_DATA_LINEAGE_FA.md` — 1,753 bytes
+- `docs/33_ERRORS_LOGGING_SUPPORT_FA.md` — 1,423 bytes
+- `docs/34_SCREEN_REVIEW_CHECKLIST_FA.md` — 2,393 bytes
+- `docs/35_QUALITY_GATES_RELEASE_FA.md` — 2,064 bytes
+- `docs/36_WORKFLOWS_AND_DIAGRAMS_FA.md` — 1,589 bytes
+- `docs/37_OFFICIAL_REFERENCES_FA.md` — 2,551 bytes
+- `docs/38_GLOSSARY_FA.md` — 2,843 bytes
+- `docs/39_IMPLEMENTATION_ROADMAP_FA.md` — 2,619 bytes
+- `docs/40_VISUAL_SPEC_DASHBOARD_FA.md` — 3,920 bytes
+- `docs/41_OFFICE2013_EXCEL_RULES_FA.md` — 2,388 bytes
+- `docs/42_PAGE_DATA_LINEAGE_EXAMPLES_FA.md` — 1,568 bytes
+- `docs/43_REPOSITORY_FILE_POLICY_FA.md` — 1,503 bytes
+- `docs/44_AGENT_EVIDENCE_REPORT_SCHEMA_FA.md` — 1,220 bytes
+- `docs/45_READ_FIRST_LEGACY_MAPPING_FA.md` — 2,052 bytes
+- `docs/46_PAGE_BY_PAGE_INTERACTION_SPEC_FA.md` — 19,592 bytes
+- `docs/48_GITHUB_SETTINGS_SECURITY_BRANCH_RULES_FA.md` — 7,518 bytes
+- `docs/49_REPOSITORY_ALL_FILE_REVIEW_PROTOCOL_FA.md` — 6,641 bytes
+- `docs/INDEX_FA.md` — 7,088 bytes
+- `docs/archive_v0_2/MazandHub_Documentation_Rebuild_Pack_FA_v0_2.zip` — 71,027 bytes
+- `docs/archive_v0_2/README_ARCHIVE_FA.md` — 713 bytes
+- `docs/source_snapshots/Decision_Register_Baseline_v1.0_FA.md` — 9,761 bytes
+- `docs/source_snapshots/Mazand_FOS_Master_Spec_v1.0_FA.md` — 345,469 bytes
+- `docs/source_snapshots/Original_Decision_Questionnaire_FA_v1.md` — 77,999 bytes
+- `docs/source_snapshots/Owner_Answers_Round1_FA.md` — 8,809 bytes
+- `docs/source_snapshots/Owner_Answers_Round2_FA.md` — 843 bytes
+- `docs/source_snapshots/Second_Round_Interpretation_v1.0_FA.md` — 10,418 bytes
+- `prompts/00_GLOBAL_CONTRACT_FA.md` — 5,558 bytes
+- `prompts/01_READ_ONLY_AUDIT_FA.md` — 7,109 bytes
+- `prompts/02_DOCS_INVENTORY_AND_MIGRATION_FA.md` — 5,223 bytes
+- `prompts/03_GAP_TRACEABILITY_AND_DECISIONS_FA.md` — 5,433 bytes
+- `prompts/04_ARCHITECTURE_DECISION_FA.md` — 5,346 bytes
+- `prompts/05_DOMAIN_MODEL_AND_DB_FA.md` — 5,309 bytes
+- `prompts/06_DESIGN_SYSTEM_VISUAL_AUDIT_FA.md` — 5,478 bytes
+- `prompts/07_IMPLEMENTATION_FOUNDATION_FA.md` — 4,818 bytes
+- `prompts/08_APP_SHELL_DASHBOARD_UX_FA.md` — 5,263 bytes
+- `prompts/09_MASTER_DATA_PARTIES_FA.md` — 4,907 bytes
+- `prompts/10_CITRUS_INVOICE_WEIGHT_FA.md` — 5,776 bytes
+- `prompts/11_INVENTORY_SORTING_FA.md` — 5,435 bytes
+- `prompts/12_ACCOUNTING_LEDGER_STATEMENTS_FA.md` — 5,403 bytes
+- `prompts/13_BANK_TREASURY_BARFOROOSH_FA.md` — 5,252 bytes
+- `prompts/14_IMPORT_STUDIO_EXCEL_FA.md` — 5,593 bytes
+- `prompts/15_OFFLINE_SYNC_MODES_FA.md` — 5,159 bytes
+- `prompts/16_SECURITY_BACKUP_RESTORE_FA.md` — 5,262 bytes
+- `prompts/17_DASHBOARD_REPORTS_LINEAGE_FA.md` — 5,106 bytes
+- `prompts/18_PRINT_BUILDER_TEMPLATES_FA.md` — 4,970 bytes
+- `prompts/19_SCALE_HARDWARE_ADAPTER_FA.md` — 4,482 bytes
+- `prompts/20_VERTICAL_SLICE_DELIVERY_FA.md` — 4,470 bytes
+- `prompts/21_VISUAL_REGRESSION_ACCESSIBILITY_FA.md` — 4,590 bytes
+- `prompts/22_CHANGE_IMPACT_REGRESSION_FA.md` — 4,883 bytes
+- `prompts/23_MIGRATION_INSTALLER_ROLLBACK_FA.md` — 4,736 bytes
+- `prompts/24_UAT_RELEASE_GATE_FA.md` — 4,554 bytes
+- `prompts/25_FINAL_AUDIT_HANDOFF_FA.md` — 5,036 bytes
+- `prompts/INDEX_FA.md` — 4,571 bytes
+- `prompts/MASTER_ORCHESTRATOR_FA.md` — 2,559 bytes
+- `prompts/SEQUENTIAL_COPY_PASTE_RUNBOOK_FA.md` — 151,154 bytes
+- `scripts/validate_docs.py` — 3,924 bytes
+- `tests/ACCEPTANCE_MATRIX_FA.md` — 2,044 bytes
+- `tests/PROMPT_EXECUTION_LEDGER_FA.md` — 2,302 bytes
+- `tests/README_FA.md` — 579 bytes
+- `tests/fixtures/README_FA.md` — 491 bytes
